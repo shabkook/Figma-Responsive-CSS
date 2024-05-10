@@ -1,0 +1,101 @@
+.wrapper .blog-grid {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(1, auto);
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  /* grid-co    lumn-gap: 32px;
+  grid-row-gap: 24px; */
+}
+
+.wrapper .blog-grid .blogheading {
+  width: 949px;
+  margin: 128px auto 16px auto;
+}
+
+.wrapper .blog-grid .blogheading h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #282928;
+}
+
+.wrapper .blog-grid .blogheading h5 {
+  text-align: center;
+}
+
+.wrapper .blog-grid .blogheading h5 span:nth-last-of-type(1) {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #282928;
+}
+
+.wrapper .blog-grid .blogheading h5 span:nth-last-of-type(2) {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #282928;
+  margin-bottom: 48px;
+}
+
+.wrapper .blog-grid .peopleimage {
+  margin: 0 auto;
+}
+.wrapper .blog-grid .peopleimage img {
+  width: 1280px;
+  /* height: 477px; */
+  top: 440px;
+  left: 160px;
+  object-fit: cover;
+  margin-bottom: 80px;
+}
+
+.wrapper .blog-grid .blogmainbody {
+  width: 840px;
+  margin: 0 auto;
+}
+
+.wrapper .blog-grid .blogmainbody h3 {
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #282928;
+  margin-bottom: 32px;
+}
+
+.wrapper .blog-grid .blogmainbody p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #282928;
+  margin-bottom: 40px;
+}
+
+.wrapper .blog-grid .blogmainbody p span:nth-last-of-type(2) {
+  color: #2405f2;
+}
+
+.wrapper .blog-grid .blogmainbody img {
+  width: 839px;
+  /* height: 311px;
+top: 2129px;
+left: 380px; */
+}

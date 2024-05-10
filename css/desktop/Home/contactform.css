@@ -1,0 +1,174 @@
+.contact-form-nav {
+  width: 100%;
+  /* height: 691px; */
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-flow: row nowrap;
+  /* align-items: center; */
+  /* align-content: space-between; */
+  padding-left: 100px;
+  /* margin-right: 50px; */
+  margin-bottom: 128px;
+}
+
+.contact-form-nav .contact-form-left {
+  width: 38%;
+  height: inherit;
+  /* background-color: aqua; */
+  background-image: url("./images/Woman-Writing-on-Paper.png");
+  background-size: auto;
+  background-size: cover;
+  background-position: center;
+  background-color: #1c1e53;
+}
+.contact-form-nav .contact-form-left .contact-form-left-top {
+  padding: 96px;
+}
+
+.contact-form-nav .contact-form-left .contact-form-left-top h1 {
+  font-family: Poppins;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+.contact-form-nav .contact-form-left .contact-form-left-top p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 150px;
+}
+
+.contact-form-right {
+  width: 50%;
+  height: inherit;
+  background-color: #9496c4;
+  padding: 96px;
+}
+.contact-form-right h5 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+
+.contact-form-right p:nth-of-type(1) {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f4f6fc;
+  margin-bottom: 40px;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+
+.contact-form-right p:nth-of-type(2) {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f4f6fc;
+  border-radius: 8px;
+  border-style: solid;
+  border: 3 px;
+  border-color: #f4f6fc;
+  padding-left: 32px;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+
+.contact-form-right p:nth-of-type(3) {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f4f6fc;
+  border-radius: 8px;
+  border-style: solid;
+  border: 3 px;
+  border-color: #f4f6fc;
+  padding-left: 32px;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+
+.contact-form-right p:nth-of-type(4) {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f4f6fc;
+  border-radius: 8px;
+  border-style: solid;
+  border: 3 px;
+  border-color: #f4f6fc;
+  padding-left: 32px;
+  margin-bottom: 39px;
+  text-transform: capitalize;
+}
+
+.contact-form-right button {
+  width: 432px;
+  height: 64px;
+  top: 5414px;
+  left: 910px;
+  padding: 15px, 51px;
+  border-radius: 41px;
+  gap: 10px;
+  background-color: #fcd980;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+  margin-left: 100px;
+}
+
+.contact-form-right p span {
+  border: 1.5px;
+  margin-left: 16px;
+  color: #f4f6fc;
+  margin-left: 230px;
+  text-transform: capitalize;
+}
+
+.contact-form-right p span:nth-of-type(2) {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  vertical-align: middle;
+  color: #f4f6fc;
+  margin-left: 16px;
+  margin-bottom: 48px;
+  text-transform: capitalize;
+}

@@ -1,0 +1,25 @@
+.wrapper .benefit {
+  width: 100%;
+  margin-top: 96px;
+}
+
+.wrapper .benefit h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #282938;
+  margin-bottom: 48px;
+}
+
+.wrapper .benefitcard {
+  width: 100%;
+  /* margin: 48px 160px 128px 160px; */
+  justify-content: center;
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 32px;
+}

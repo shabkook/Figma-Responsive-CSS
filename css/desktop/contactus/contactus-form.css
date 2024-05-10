@@ -1,0 +1,217 @@
+.form {
+  width: 1061px;
+  height: 640px;
+  margin: 128px 270px;
+  border: 1px solid #0000001f;
+  background-color: #0000001f;
+  display: grid;
+  grid-template-areas: "firstName lastName" "sub_1 sub_2" "message message";
+  grid-template-columns: repeat(2, 1fr);
+
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  column-gap: 10px;
+  row-gap: 24px;
+}
+
+.form .name label {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2b2b2b;
+  margin-left: 77px;
+  margin-top: 55px;
+}
+
+.form .name input {
+  width: 438px;
+  height: 64px;
+  margin-left: 77px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px;
+  /* gap: 10px; */
+  border: 1px solid #0000001f;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.form .familyname label {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2b2b2b;
+  margin-right: 77px;
+  margin-top: 55px;
+}
+
+.form .familyname input {
+  width: 438px;
+  height: 64px;
+  margin-right: 77px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px;
+  /* gap: 10px; */
+  border: 1px solid #0000001f;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.form .email label {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2b2b2b;
+  margin-right: 77px;
+  margin-top: 55px;
+}
+
+.form .email input {
+  width: 438px;
+  height: 64px;
+  margin-right: 77px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px;
+  /* gap: 10px; */
+  border: 1px solid #0000001f;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.form .subject1 label {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2b2b2b;
+  margin-left: 77px;
+  margin-top: 55px;
+}
+
+.form .subject1 input {
+  width: 438px;
+  height: 64px;
+  margin-left: 77px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px;
+  /* gap: 10px; */
+  border: 1px solid #0000001f;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.form .subject2 label {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2b2b2b;
+  margin-right: 77px;
+  margin-top: 55px;
+}
+
+.form .subject2 input {
+  width: 438px;
+  height: 64px;
+  margin-right: 77px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px;
+  border: 1px solid #0000001f;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.form .message label {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2b2b2b;
+  margin-left: 77px;
+  margin-top: 55px;
+}
+
+.form .message input {
+  width: 908px;
+  height: 138px;
+  margin-left: 77px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid #0000001f;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.form .buttom-1 .buttom input {
+  width: 254px;
+  height: 64px;
+  padding: 15px, 51px, 15px, 51px;
+  border-radius: 41px;
+  margin-left: 77px;
+  background-color: #282938;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.name {
+  grid-area: firstName;
+}
+.lastName {
+  grid-area: lastName;
+}
+.subject1 {
+  grid-area: sub_1;
+}
+.subject2 {
+  grid-area: sub_2;
+}
+.message {
+  grid-area: message;
+}

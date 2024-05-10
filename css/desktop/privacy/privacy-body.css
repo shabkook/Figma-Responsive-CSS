@@ -1,0 +1,103 @@
+.wrapper .privace-grid {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(1, auto);
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  /* grid-co    lumn-gap: 32px;
+    grid-row-gap: 24px; */
+}
+
+.wrapper .privace-grid .privacyheading {
+  width: 949px;
+  margin: 128px auto 16px auto;
+}
+
+.wrapper .privace-grid .privacyheading h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #282928;
+  text-transform: capitalize;
+}
+
+.wrapper .privace-grid .privacyheading h5 {
+  text-align: center;
+}
+
+.wrapper .privace-grid .privacyheading h5 span:nth-last-of-type(1) {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #282928;
+  opacity: 0.7;
+}
+
+.wrapper .privace-grid .privacyheading h5 span:nth-last-of-type(2) {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #282928;
+  margin-bottom: 48px;
+  opacity: 0.7;
+}
+
+/* .wrapper .privace-grid .peopleimage {
+  margin: 0 auto;
+}
+.wrapper .privace-grid .peopleimage img {
+  width: 1280px;
+  top: 440px;
+  left: 160px;
+  object-fit: cover;
+  margin-bottom: 80px;
+} */
+
+.wrapper .privace-grid .privacymainbody {
+  width: 840px;
+  margin: 0 auto;
+}
+
+.wrapper .privace-grid .privacymainbody h3 {
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #282928;
+  margin-bottom: 32px;
+}
+
+.wrapper .privace-grid .privacymainbody p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #282928;
+  margin-bottom: 40px;
+}
+
+.wrapper .privace-grid .privacymainbody p span:nth-last-of-type(2) {
+  color: #2405f2;
+}
+
+.wrapper .privace-grid .privacymainbody img {
+  width: 839px;
+  /* height: 311px;
+  top: 2129px;
+  left: 380px; */
+}

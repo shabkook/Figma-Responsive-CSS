@@ -1,0 +1,40 @@
+.wrapper .logosection {
+  width: 100%;
+  /* margin-top: 124px; */
+  padding-left: 180px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.wrapper .logosection .logosection-left {
+  width: 25%;
+  margin-top: 96px;
+}
+
+.wrapper .logosection .logosection-left h3 {
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #282938;
+  text-transform: capitalize;
+}
+
+.wrapper .logosection .logosection-left p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.wrapper .logosection .logosection-right {
+  margin-top: 124px;
+}
+.wrapper .logosection .logosection-right span svg {
+  margin-right: 59px;
+  vertical-align: middle;
+}

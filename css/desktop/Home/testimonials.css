@@ -1,0 +1,144 @@
+.nav-Testimonials {
+  width: 100%;
+  /* background-color: lightskyblue; */
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 110px;
+}
+
+.nav-Testimonials .left-Testimonials {
+  width: 327px;
+  margin-top: 130px;
+  margin-left: 160px;
+  margin-bottom: 100px;
+}
+
+.nav-Testimonials .left-Testimonials h3 {
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #282938;
+  margin-bottom: 16px;
+}
+
+.nav-Testimonials .left-Testimonials p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #282938;
+  opacity: 0.7;
+  margin-bottom: 100px;
+}
+
+.nav-Testimonials .right-Testimonials {
+  padding-top: 130px;
+  padding-right: 50px;
+}
+
+.nav-Testimonials .right-Testimonials .right-Testimonials-up h5 {
+  width: 843px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #282938;
+  margin-bottom: 48px;
+}
+
+.nav-Testimonials
+  .right-Testimonials
+  .right-Testimonials-down
+  .right-Testimonials-down-left {
+  width: 249px;
+  display: grid;
+  /* grid-template-rows: 1fr 2fr; */
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 5px;
+  /* grid-row-gap: 5px; */
+}
+
+.nav-Testimonials
+  .right-Testimonials
+  .right-Testimonials-down
+  .right-Testimonials-down-left
+  img {
+  width: 58.25px;
+  /* height: 87.34px; */
+  object-position: center center;
+  object-fit: cover;
+  border-radius: 50%;
+  align-content: center;
+}
+
+.nav-Testimonials
+  .right-Testimonials
+  .right-Testimonials-down
+  .right-Testimonials-down-right
+  .name
+  h3 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #282938;
+}
+
+.nav-Testimonials
+  .right-Testimonials
+  .right-Testimonials-down
+  .right-Testimonials-down-right
+  .designation
+  h6 {
+  font-family: Poppins;
+  font-size: 11px;
+  font-weight: bolder;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #282938;
+  /* position: relative; */
+}
+
+.nav-Testimonials
+  .right-Testimonials
+  .right-Testimonials-down
+  .right-Testimonials-down-right
+  .designation
+  p:nth-of-type(1) {
+  width: 13px;
+  height: 22px;
+  /* top: 3961px; */
+  /* left: 1363px; */
+  opacity: 0.6px;
+  color: #282938;
+  /* position: absolute; */
+  left: 0;
+  top: 0;
+}
+
+.nav-Testimonials
+  .right-Testimonials
+  .right-Testimonials-down
+  .right-Testimonials-down-right
+  .designation
+  p:nth-of-type(2) {
+  width: 13px;
+  height: 22px;
+  /* top: 3939px; */
+  /* left: 1409px; */
+  color: #ffffff;
+  border: black solid 1px;
+  border-radius: 80%;
+  /* position: absolute; */
+}
